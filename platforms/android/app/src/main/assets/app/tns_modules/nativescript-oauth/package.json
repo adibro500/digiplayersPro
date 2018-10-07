@@ -1,0 +1,90 @@
+{
+  "_from": "nativescript-oauth@^2.1.7",
+  "_id": "nativescript-oauth@2.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-mKvOcTYlYy96eOBUHZdROlUfielwdqnZMtsQOCnfvDzgXFU8zrlnc+7NtdPVkbUdH7gYfbs2tOYmkrP/sill+w==",
+  "_location": "/nativescript-oauth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-oauth@^2.1.7",
+    "name": "nativescript-oauth",
+    "escapedName": "nativescript-oauth",
+    "rawSpec": "^2.1.7",
+    "saveSpec": null,
+    "fetchSpec": "^2.1.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-oauth/-/nativescript-oauth-2.1.7.tgz",
+  "_shasum": "afa23f571d423c84fce98804f16fce9aa464ea36",
+  "_spec": "nativescript-oauth@^2.1.7",
+  "_where": "E:\\tsc\\backup-digiplayerspro\\digiplayersPro",
+  "author": {
+    "name": "Alexander Ziskind",
+    "email": "alex@nuvious.com",
+    "url": "http://www.nuvious.com/blog"
+  },
+  "bugs": {
+    "url": "https://github.com/alexziskind1/nativescript-oauth/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kevin Primm",
+      "email": "kfprimm@gmail.com",
+      "url": "https://github.com/kfprimm"
+    },
+    {
+      "name": "Toma Nikolov",
+      "url": "https://github.com/TomaNikolov"
+    }
+  ],
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "deprecated": false,
+  "description": "OAuth 2 login for NativeScript.",
+  "devDependencies": {
+    "nativescript-dev-typescript": "^0.7.1",
+    "tns-core-modules": "4.1.0",
+    "tns-platform-declarations": "4.1.0",
+    "typescript": "^2.7.2"
+  },
+  "homepage": "https://github.com/alexziskind1/nativescript-oauth",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Office365",
+    "Facebook",
+    "Azure AD",
+    "iOS",
+    "Android"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/alexziskind1/nativescript-oauth/blob/master/LICENSE"
+  },
+  "main": "index.js",
+  "name": "nativescript-oauth",
+  "nativescript": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexziskind1/nativescript-oauth.git"
+  },
+  "scripts": {
+    "build": "npm i && tsc",
+    "demo.android": "npm run preparedemo && cd demo-angular && tns run android",
+    "preparedemo": "npm run build && cd demo-angular && tns plugin remove nativescript-oauth && tns plugin add .. && tns install",
+    "setup": "cd demo-angular && npm install && cd .. && npm run build && cd demo-angular && tns plugin add .. && cd .."
+  },
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "typings": "index",
+  "version": "2.1.7"
+}

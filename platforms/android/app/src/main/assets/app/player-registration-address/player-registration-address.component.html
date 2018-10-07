@@ -1,0 +1,44 @@
+<ActionBar title="Player Address Registration" class="action-bar"></ActionBar>
+<!-- <StackLayout id="stlay"> -->
+<StackLayout verticalAlignment="center">
+  <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
+      <StackLayout class="input-field">
+          <Label text="City" class="label font-weight-bold m-b-5"></Label>
+          <TextField class="input"></TextField>
+          <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+      <StackLayout class="input-field">
+        <Label text="State" class="label font-weight-bold m-b-5"></Label>
+        <TextField class="input"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <StackLayout class="input-field">
+      <Label text="Postal Code" class="label font-weight-bold m-b-5"></Label>
+      <TextField class="input"></TextField>
+      <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <StackLayout class="input-field">
+      <Label text="Country" class="label font-weight-bold m-b-5"></Label>
+      <TextField class="input"></TextField>
+      <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <StackLayout class="input-field">
+      <Label text="Address Line 1" class="label font-weight-bold m-b-5"></Label>
+      <TextField class="input"></TextField>
+      <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <StackLayout class="input-field">
+      <Label text="Address Line 2" class="label font-weight-bold m-b-5"></Label>
+      <TextField class="input"></TextField>
+      <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <StackLayout class="input-field">
+      <Label text="Address Line 3" class="label font-weight-bold m-b-5"></Label>
+      <TextField class="input"></TextField>
+      <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+    <Button class="btn btn-primary w-full btn_primo" text="Register" (tap)="register()"></Button>
+    <Label [nsRouterLink]="['/items']" text="Already a member? Login here." class="text-center footnote"></Label>
+  </StackLayout>
+</StackLayout>
+<!-- </StackLayout> -->
