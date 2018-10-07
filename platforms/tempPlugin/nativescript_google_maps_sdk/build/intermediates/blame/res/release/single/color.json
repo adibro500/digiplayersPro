@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\New folder\\digiplayersPro\\platforms\\tempPlugin\\nativescript_google_maps_sdk\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\ADITYA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\cbbf0350799f4dfaeb29a25402285563\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\New folder\\digiplayersPro\\platforms\\tempPlugin\\nativescript_google_maps_sdk\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\ADITYA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\cbbf0350799f4dfaeb29a25402285563\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "D:\\New folder\\digiplayersPro\\platforms\\tempPlugin\\nativescript_google_maps_sdk\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\ADITYA\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\cbbf0350799f4dfaeb29a25402285563\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

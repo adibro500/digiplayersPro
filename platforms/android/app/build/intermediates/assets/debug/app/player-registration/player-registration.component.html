@@ -1,0 +1,35 @@
+<ActionBar title="Player Registration" class="action-bar"></ActionBar>
+<!-- <StackLayout id="stlay"> -->
+<StackLayout verticalAlignment="center">
+  <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
+      <StackLayout class="input-field">
+          <Label text="First Name" class="label font-weight-bold m-b-5"></Label>
+          <TextField class="input"></TextField>
+          <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+      <StackLayout class="input-field">
+          <Label text="Last Name" class="label font-weight-bold m-b-5"></Label>
+          <TextField class="input"></TextField>
+          <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+      <StackLayout class="input-field">
+          <Label text="Email" class="label font-weight-bold m-b-5"></Label>
+          <TextField class="input"></TextField>
+          <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+      <StackLayout class="input-field">
+        <Label text="Company Name" class="label font-weight-bold m-b-5"></Label>
+        <TextField class="input"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+    </StackLayout>
+   
+      <StackLayout class="input-field">
+          <Label text="Password" class="label font-weight-bold m-b-5"></Label>
+          <TextField secure="true" class="input"></TextField>
+          <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+      <Button class="btn btn-primary w-full btn_primo" text="Fill up address details"></Button>
+      <Label [nsRouterLink]="['/player-register-address']" text="Already a member? Login here." class="text-center footnote"></Label>
+  </StackLayout>
+<!-- </StackLayout> -->
+</StackLayout>

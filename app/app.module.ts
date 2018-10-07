@@ -28,7 +28,6 @@ TNSFontIconService.debug = true;
     imports: [
         NativeScriptModule,
         AppRoutingModule,
-        CardsComponent,
         TNSFontIconModule.forRoot({
             'fa': './css/font-awesome.min.css',
         }),
@@ -36,6 +35,7 @@ TNSFontIconService.debug = true;
     declarations: [
         AppComponent,
         MapComponent,
+        CardsComponent,
         PlayerRegistrationAddressComponent,
         ItemsComponent,
         ItemDetailComponent,
