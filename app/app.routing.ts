@@ -19,7 +19,7 @@ const routes: Routes = [
     { path: 'map', component: MapComponent },
     { path: 'items', component: ItemsComponent },
     { path: "item/:id", component: ItemDetailComponent },
-    { path: "/cards", component: CardsComponent },
+    { path: "cards", component: CardsComponent },
 
 ];
 
