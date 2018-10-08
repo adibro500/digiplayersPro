@@ -12,7 +12,7 @@ import { MapComponent } from "~/map/map.component";
 import { CardsComponent } from "~/cards/cards.component";
 
 const routes: Routes = [
-    { path: "", component: LoginComponent },//component: PlayerRegistrationComponent },// redirectTo: "/items", pathMatch: "full" },
+    { path: "", component: CardsComponent },//component: PlayerRegistrationComponent },// redirectTo: "/items", pathMatch: "full" },
     { path: "registration", component: RegistrationComponent },
     { path: "player-register", component: PlayerRegistrationComponent },
     { path: "player-register-address", component: PlayerRegistrationAddressComponent },

@@ -13,6 +13,7 @@ import { PlayerRegistrationComponent } from "~/player-registration/player-regist
 import { PlayerRegistrationAddressComponent } from "~/player-registration-address/player-registration-address.component";
 import { MapComponent } from "~/map/map.component";
 import { CardsComponent } from "~/cards/cards.component";
+import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular/side-drawer-directives";
 TNSFontIconService.debug = true;
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -20,7 +21,6 @@ TNSFontIconService.debug = true;
 
 // Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
 // import { NativeScriptHttpModule } from "nativescript-angular/http";
-
 @NgModule({
     bootstrap: [
         AppComponent
@@ -28,6 +28,7 @@ TNSFontIconService.debug = true;
     imports: [
         NativeScriptModule,
         AppRoutingModule,
+        NativeScriptUISideDrawerModule,
         TNSFontIconModule.forRoot({
             'fa': './css/font-awesome.min.css',
         }),

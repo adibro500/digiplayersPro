@@ -1,0 +1,26 @@
+<ActionBar style="background-color:#00a1f1;color:white;box-shadow:5px;" title="SideDrawer Button">
+    <StackLayout (tap)="toggleDrawer()" orientation="horizontal"
+    ios:horizontalAlignment="center"
+    android:horizontalAlignment="left">
+    <Label class="fa" text = "{{'fa-bars' | fonticon }} Wall Posts" ></Label>
+  </StackLayout>
+    </ActionBar>
+<RadSideDrawer tkExampleTitle tkToggleNavButton>
+  <StackLayout tkDrawerContent class="sideStackLayout">
+      <StackLayout style="background-color:white;color:#00a1f1" class="sideTitleStackLayout">
+          <Label text="Navigation Menu"></Label>
+      </StackLayout>
+      <StackLayout style="background-color:#00a1f1;color:white" class="sideStackLayout">
+          <Label text="Social" class="sideLabel"></Label>
+          <Label text="Promotions" class="sideLabel"></Label>
+          <Label text="Important" class="sideLabel"></Label>
+          <Label text="Starred" class="sideLabel"></Label>
+          <Label text="Sent Mail" class="sideLabel"></Label>
+          <Label text="Drafts" class="sideLabel"></Label>
+      </StackLayout>
+      <Label [nsRouterLink]="['/map']" class="sideLabel" text="Close Menu" color="white" padding="10" (tap)="onCloseDrawerTap()"></Label>
+  </StackLayout>
+  <StackLayout style="background-color:whitesmoke;color:#00a1f1;" tkMainContent>
+      <page-router-outlet></page-router-outlet>
+  </StackLayout>
+</RadSideDrawer>

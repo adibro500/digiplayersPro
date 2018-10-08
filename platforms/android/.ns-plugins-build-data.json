@@ -1,18 +1,19 @@
 {
 	"nativescript-fontawesome": {
 		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\AndroidManifest.xml": "a49c6297b29f6fca5b1b61650dae089ff2181ba0",
-		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\include.gradle": "f1091b6acf29316e58365d39dd9134db9ec18bd4",
-		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f"
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\include.gradle": "4945565d2e438104a7124474e0975db3692b0b02",
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-fontawesome\\platforms\\android\\nativescript_fontawesome.aar": "00651f97ccdc776e248565c0a82ce0a5f7c533af"
 	},
 	"nativescript-geolocation": {
 		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-geolocation\\platforms\\android\\include.gradle": "b4197a7b5556ea5de03f08097c27f72ec4d64c76",
 		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-geolocation\\platforms\\android\\nativescript_geolocation.aar": "8d2a9d9e9492fb3a2321eb2343881330be4de2e3"
 	},
 	"nativescript-google-maps-sdk": {
-		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\AndroidManifest.xml": "130cc0f7d61291e1fe1fe5162746b1b3def24330",
 		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\include.gradle": "faf6fc754a47c6266f96b0406272ff1f1028a054",
-		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\nativescript_google_maps_sdk.aar": "b7564cdff4ceaa2f1c434b1d142a54842eefbfa4",
-		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\res\\values\\nativescript_google_maps_api.xml": "d17f77bd86070f002f9c7e6b406b8e89a9b039a6"
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\nativescript_google_maps_sdk.aar": "79a9a2d3fb844a7cb3fed157866f2f5ddc639798",
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\res\\values\\nativescript_google_maps_api.xml": "d17f77bd86070f002f9c7e6b406b8e89a9b039a6",
+		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-google-maps-sdk\\platforms\\android\\AndroidManifest.xml": "130cc0f7d61291e1fe1fe5162746b1b3def24330"
 	},
 	"nativescript-ui-sidedrawer": {
 		"D:\\New folder\\digiplayersPro\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\TNSSideDrawer-release.aar": "014feca9bb77a2b9bb64edb4fdc8a0fbfab4abed",
